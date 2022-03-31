@@ -13,7 +13,7 @@ This is a .NET Core project with Azure Functions and CosmosDB database
 func start
 ```
 
-**Step 4.(Optional)** if you desire create another function in the project, execute the next command and select the option **Http Trigger**
+**Step 4.(Optional)** if you decide to create another function in the project, execute the next command and select the option **Http Trigger**
 
 ```gradle
 func new
