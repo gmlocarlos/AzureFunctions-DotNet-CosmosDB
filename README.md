@@ -3,11 +3,13 @@ This is a .NET Core project with Azure Functions and CosmosDB database
 
 # Usage
 
-**Step 1.** Clone this repository and open in Visual Studio Code
+**Step 1.** Install Azure Functions Core Tools v4
 
-**Step 2.** In the Azure Portal create a database called **DemoDB** and a container called **CreditCards**, the container must have as partition key the value **/cardNumber** 
+**Step 2.** Clone this repository and open in Visual Studio Code
 
-**Step 3.** Compile the project with the next command:
+**Step 3.** In the Azure Portal create a database called **DemoDB** and a container called **CreditCards**, the container must have as partition key the value **/cardNumber** 
+
+**Step 4.** Compile the project with the next command:
 
 ```gradle
 func start
